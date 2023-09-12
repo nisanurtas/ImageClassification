@@ -8,8 +8,8 @@ This repository contains a Python script for training a convolutional neural net
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
-- [Training](#training)
-- [Results](#results)
+- [For testing](#for-testing)
+
 
 
 ## Getting Started
