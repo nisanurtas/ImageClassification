@@ -1,8 +1,8 @@
 # ImageClassification
-image classifier using MobileNetV3Large for 4 classes (both, empty, human, vehicle). Easy customization for diverse datasets.
+image classifier using MobileNetV3Large for 4 classes (cat, empty, human, vehicle). Easy customization for diverse datasets.
 
 
-This repository contains a Python script for training a convolutional neural network (CNN) using the MobileNetV3Large architecture for image classification. The trained model can classify images into one of four classes: "both," "empty," "human," or "vehicle."
+This repository contains a Python script for training a convolutional neural network (CNN) using the MobileNetV3Large architecture for image classification. The trained model can classify images into one of four classes: "cat," "empty," "human," or "vehicle."
 
 ## Table of Contents
 - [Getting Started](#getting-started)
