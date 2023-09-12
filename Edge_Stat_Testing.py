@@ -20,18 +20,15 @@ def main():
         final_image = np.expand_dims(final_image, axis=0)
         predictions = model.predict(final_image)
 
-        # top_five = tf.keras.applications.imagenet_utils.decode_predictions(predictions, top=5)
-        # print(top_five)
 
         classes = np.argmax(predictions, axis=1)
         print(classes)
 
 
-        # print(predictions[0][0],'  ',predictions[0][1],'  ',predictions[0][2])
-        # print(predictions[0][2])
+    
 
         if classes == 0:
-            status = "both"
+            status = "cat"
             cv2.putText(img, status, (520, 90), cv2.FONT_HERSHEY_SIMPLEX, 3, (0, 0, 255), 6, cv2.LINE_4)
         if classes == 1:
             status = "empty"
