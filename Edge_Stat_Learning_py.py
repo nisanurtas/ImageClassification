@@ -19,7 +19,7 @@ def main():
 
         train_path = "./Images/Train_edge"
         valid_path = "./Images/Validation_edge"
-        classes_train_valid = ["both", "empty", "human", "vehicle"]
+        classes_train_valid = ["cat", "empty", "human", "vehicle"]
 
         train_generator = ImageDataGenerator().flow_from_directory(train_path, classes=classes_train_valid, target_size=(590,445), batch_size=30)
         valid_generator = ImageDataGenerator().flow_from_directory(valid_path, classes=classes_train_valid, target_size=(590,445), batch_size=20)
